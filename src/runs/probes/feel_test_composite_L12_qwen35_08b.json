@@ -1,0 +1,50 @@
+{
+  "0.0": {
+    "mass_pos": 0.08187060803174973,
+    "mass_neg": 0.013122501783072948,
+    "log_ratio": 0.7951113753421973,
+    "top5": [
+      " completely",
+      " very",
+      " energetic",
+      " like",
+      " a"
+    ]
+  },
+  "2.0": {
+    "mass_pos": 0.15726743638515472,
+    "mass_neg": 0.0023638331331312656,
+    "log_ratio": 1.823021991685478,
+    "top5": [
+      " very",
+      " energetic",
+      " completely",
+      " good",
+      " strong"
+    ]
+  },
+  "5.0": {
+    "mass_pos": 0.39262062311172485,
+    "mass_neg": 0.00029600714333355427,
+    "log_ratio": 3.122670916259355,
+    "top5": [
+      " positive",
+      " a",
+      " energetic",
+      " my",
+      " happy"
+    ]
+  },
+  "-2.0": {
+    "mass_pos": 0.00887054018676281,
+    "mass_neg": 0.027799569070339203,
+    "log_ratio": -0.4960879960934921,
+    "top5": [
+      " like",
+      " very",
+      " a",
+      " deeply",
+      " overwhelmed"
+    ]
+  }
+}

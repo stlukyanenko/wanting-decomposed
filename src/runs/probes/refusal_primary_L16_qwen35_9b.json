@@ -1,0 +1,32 @@
+{
+  "0.0": {
+    "refusal_rate": 0.73,
+    "n": 100,
+    "clock_s": 102.0
+  },
+  "1.0": {
+    "refusal_rate": 0.72,
+    "n": 100,
+    "clock_s": 100.8
+  },
+  "2.0": {
+    "refusal_rate": 0.71,
+    "n": 100,
+    "clock_s": 100.8
+  },
+  "3.0": {
+    "refusal_rate": 0.7,
+    "n": 100,
+    "clock_s": 101.0
+  },
+  "4.0": {
+    "refusal_rate": 0.69,
+    "n": 100,
+    "clock_s": 101.1
+  },
+  "-2.0": {
+    "refusal_rate": 0.73,
+    "n": 100,
+    "clock_s": 100.8
+  }
+}

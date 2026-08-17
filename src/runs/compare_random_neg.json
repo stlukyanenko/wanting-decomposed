@@ -1,0 +1,79 @@
+{
+  "baseline": {
+    "path": "src/runs/gate9b_a0_t1.json",
+    "alpha": 0.0,
+    "panel": {
+      "reliability": 0.9960955055526137,
+      "cycle_mass": 0.12092608012340418,
+      "hard_rate": 0.013333333333333334,
+      "sharpness": 1.1513041257858276,
+      "position_bias": null,
+      "holdout": {
+        "log_loss": 0.44172540283065487,
+        "accuracy": 0.9457917261055635,
+        "label_entropy": 0.41699631180391394,
+        "excess_log_loss": 0.024729091026740924
+      }
+    }
+  },
+  "doses": [
+    {
+      "alpha": 4.0,
+      "ordering_rho_raw": 0.9915275200989485,
+      "ordering_rho_attenuation_corrected": 0.9953308574905554,
+      "gain": {
+        "beta": 0.9573635458946228,
+        "m0_holdout": {
+          "log_loss": 0.4586397493622549,
+          "accuracy": 0.9400855920114123,
+          "label_entropy": 0.43041019580948503,
+          "excess_log_loss": 0.028229553552769848
+        },
+        "m1_holdout": {
+          "log_loss": 0.45820672762312636,
+          "accuracy": 0.9400855920114123,
+          "label_entropy": 0.43041019580948503,
+          "excess_log_loss": 0.027796531813641334
+        }
+      },
+      "m2_holdout": {
+        "log_loss": 0.4521450014069616,
+        "accuracy": 0.9514978601997147,
+        "label_entropy": 0.43041019580948503,
+        "excess_log_loss": 0.021734805597476592
+      },
+      "latent": {
+        "n_undecided": 486,
+        "frac_resolved": 0.10493827160493827,
+        "resolution_ordering_agreement": 0.7647058823529411,
+        "eps": 0.05,
+        "theta": 0.1
+      },
+      "panel": {
+        "reliability": 0.9962621433740356,
+        "cycle_mass": 0.12486090049534444,
+        "hard_rate": 0.03,
+        "sharpness": 1.1095694303512573,
+        "position_bias": null
+      }
+    }
+  ],
+  "even_odd": {
+    "pos_alpha": 4.0,
+    "neg_alpha": -4.0,
+    "components": {
+      "sharpness": {
+        "even": -0.21415215730667114,
+        "odd": 0.17241746187210083
+      },
+      "cycle_mass": {
+        "even": 0.028220709967729865,
+        "odd": -0.024285889595789596
+      },
+      "ordering_rho": {
+        "even": -0.008775510204081738,
+        "odd": 0.00030303030303024947
+      }
+    }
+  }
+}

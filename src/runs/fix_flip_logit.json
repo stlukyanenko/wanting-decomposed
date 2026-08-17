@@ -1,0 +1,34 @@
+{
+  "b_primary_a1_t1.json": {
+    "beta_logit": 1.0700249671936035,
+    "sharp_logit": 1.4052138328552246
+  },
+  "b_primary_a2_t1.json": {
+    "beta_logit": 1.017421841621399,
+    "sharp_logit": 1.36965012550354
+  },
+  "b_primary_a3_t1.json": {
+    "beta_logit": 0.8717949986457825,
+    "sharp_logit": 1.1865687370300293
+  },
+  "b_primary_a4_t1.json": {
+    "beta_logit": 0.7146475911140442,
+    "sharp_logit": 0.9895902872085571
+  },
+  "b_primary_am2_t1.json": {
+    "beta_logit": 0.7455188035964966,
+    "sharp_logit": 1.0138298273086548
+  },
+  "b_shuffled_a13_t1.json": {
+    "beta_logit": 0.7345897555351257,
+    "sharp_logit": 0.931132435798645
+  },
+  "b_random_a2_t1.json": {
+    "beta_logit": 1.0598466396331787,
+    "sharp_logit": 1.3645418882369995
+  },
+  "b_carryover_steered_t1.json": {
+    "beta_logit": 0.9899417757987976,
+    "sharp_logit": 1.727608323097229
+  }
+}

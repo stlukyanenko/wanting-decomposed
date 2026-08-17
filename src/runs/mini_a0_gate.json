@@ -1,0 +1,33 @@
+{
+  "battery": "src/runs/mini_a0.json",
+  "train": {
+    "log_loss": 0.6706660105320363,
+    "accuracy": 0.9147286821705426,
+    "label_entropy": 0.6682010278561888,
+    "excess_log_loss": 0.0024649826758474935
+  },
+  "holdout": {
+    "log_loss": 0.6752397752929122,
+    "accuracy": 0.8333333333333334,
+    "label_entropy": 0.6728816805007127,
+    "excess_log_loss": 0.0023580947921995055
+  },
+  "reliability": {
+    "split_half_tau_mean": 0.7693333029747009,
+    "split_half_tau_min": 0.7333333492279053,
+    "split_half_r_sb_mean": 0.9554949102262883,
+    "split_half_r_sb_min": 0.9452332657200813,
+    "n_splits": 5
+  },
+  "seed_stability_tau": 1.0,
+  "cycles": {
+    "soft_cycle_mass": 0.23478209836559705,
+    "soft_cycle_mass_ci_lo": 0.23300598575052126,
+    "soft_cycle_mass_ci_hi": 0.2365337577210563,
+    "hard_cycle_rate": 0.02666666666666667,
+    "n_triads": 300,
+    "chance_anchor": 0.25
+  },
+  "sharpness": 0.27064794301986694,
+  "clock_s": 2.2
+}

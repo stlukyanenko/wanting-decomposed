@@ -1,0 +1,41 @@
+{
+  "battery": "src/runs/b_reckless_a3p1_t1.json",
+  "train": {
+    "log_loss": 0.5140755962599456,
+    "accuracy": 0.9334939759036145,
+    "label_entropy": 0.4975193130670658,
+    "excess_log_loss": 0.016556283192879773
+  },
+  "holdout": {
+    "log_loss": 0.4960968788694991,
+    "accuracy": 0.9529243937232525,
+    "label_entropy": 0.480195030973418,
+    "excess_log_loss": 0.015901847896081123
+  },
+  "reliability": {
+    "split_half_tau_mean": 0.9367552995681763,
+    "split_half_tau_min": 0.9282622337341309,
+    "split_half_r_sb_mean": 0.9964321408897643,
+    "split_half_r_sb_min": 0.9953339256534678,
+    "sb_capped_splits": 0,
+    "n_splits": 5
+  },
+  "seed_stability_tau": 1.0,
+  "cycles": {
+    "soft_cycle_mass": 0.1464684671960488,
+    "soft_cycle_mass_ci_lo": 0.11774432102399408,
+    "soft_cycle_mass_ci_hi": 0.17204454113984458,
+    "ci_method": "cluster_bootstrap_over_items",
+    "naive_triad_ci": [
+      0.13858599043268133,
+      0.15423539427363483
+    ],
+    "design_effect_width_ratio": 3.469794802901707,
+    "hard_cycle_rate": 0.01,
+    "n_triads": 300,
+    "n_items": 99,
+    "chance_anchor": 0.25
+  },
+  "sharpness": 0.9227527976036072,
+  "clock_s": 2.8
+}

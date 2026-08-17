@@ -1,0 +1,41 @@
+{
+  "battery": "src/runs/b_carryover_control_t1.json",
+  "train": {
+    "log_loss": 0.41353297320077054,
+    "accuracy": 0.9387951807228916,
+    "label_entropy": 0.3823018235319624,
+    "excess_log_loss": 0.031231149668808134
+  },
+  "holdout": {
+    "log_loss": 0.39685030054766063,
+    "accuracy": 0.9358059914407989,
+    "label_entropy": 0.36420672220287575,
+    "excess_log_loss": 0.032643578344784874
+  },
+  "reliability": {
+    "split_half_tau_mean": 0.9248814582824707,
+    "split_half_tau_min": 0.9146567583084106,
+    "split_half_r_sb_mean": 0.9951021663871906,
+    "split_half_r_sb_min": 0.9938085311595781,
+    "sb_capped_splits": 0,
+    "n_splits": 5
+  },
+  "seed_stability_tau": 0.9991754293441772,
+  "cycles": {
+    "soft_cycle_mass": 0.09895064716397921,
+    "soft_cycle_mass_ci_lo": 0.07240402067923067,
+    "soft_cycle_mass_ci_hi": 0.12820669407386107,
+    "ci_method": "cluster_bootstrap_over_items",
+    "naive_triad_ci": [
+      0.08964860269996991,
+      0.10822666294539379
+    ],
+    "design_effect_width_ratio": 3.003686749717351,
+    "hard_cycle_rate": 0.023333333333333334,
+    "n_triads": 300,
+    "n_items": 99,
+    "chance_anchor": 0.25
+  },
+  "sharpness": 1.5397413969039917,
+  "clock_s": 2.8
+}

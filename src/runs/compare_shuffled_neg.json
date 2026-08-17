@@ -1,0 +1,79 @@
+{
+  "baseline": {
+    "path": "src/runs/gate9b_a0_t1.json",
+    "alpha": 0.0,
+    "panel": {
+      "reliability": 0.9960955055526137,
+      "cycle_mass": 0.12092608012340418,
+      "hard_rate": 0.013333333333333334,
+      "sharpness": 1.1513041257858276,
+      "position_bias": null,
+      "holdout": {
+        "log_loss": 0.44172540283065487,
+        "accuracy": 0.9457917261055635,
+        "label_entropy": 0.41699631180391394,
+        "excess_log_loss": 0.024729091026740924
+      }
+    }
+  },
+  "doses": [
+    {
+      "alpha": 13.0,
+      "ordering_rho_raw": 0.9897093382807667,
+      "ordering_rho_attenuation_corrected": 0.994200672628869,
+      "gain": {
+        "beta": 0.7642481327056885,
+        "m0_holdout": {
+          "log_loss": 0.5239090224306905,
+          "accuracy": 0.9172610556348074,
+          "label_entropy": 0.49032802314242596,
+          "excess_log_loss": 0.033580999288264524
+        },
+        "m1_holdout": {
+          "log_loss": 0.5125311384547573,
+          "accuracy": 0.9172610556348074,
+          "label_entropy": 0.49032802314242596,
+          "excess_log_loss": 0.022203115312331323
+        }
+      },
+      "m2_holdout": {
+        "log_loss": 0.509236040768406,
+        "accuracy": 0.9258202567760342,
+        "label_entropy": 0.49032802314242596,
+        "excess_log_loss": 0.018908017625980045
+      },
+      "latent": {
+        "n_undecided": 486,
+        "frac_resolved": 0.026748971193415638,
+        "resolution_ordering_agreement": 0.7692307692307693,
+        "eps": 0.05,
+        "theta": 0.1
+      },
+      "panel": {
+        "reliability": 0.99486980573501,
+        "cycle_mass": 0.15475316011332982,
+        "hard_rate": 0.023333333333333334,
+        "sharpness": 0.8775370121002197,
+        "position_bias": null
+      }
+    }
+  ],
+  "even_odd": {
+    "pos_alpha": 13.0,
+    "neg_alpha": -13.0,
+    "components": {
+      "sharpness": {
+        "even": -0.13839906454086304,
+        "odd": -0.13536804914474487
+      },
+      "cycle_mass": {
+        "even": 0.015065774918994815,
+        "odd": 0.018761305070930823
+      },
+      "ordering_rho": {
+        "even": -0.007050092764378624,
+        "odd": -0.00324056895485475
+      }
+    }
+  }
+}

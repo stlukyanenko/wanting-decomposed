@@ -1,0 +1,141 @@
+{
+  "baseline": {
+    "path": "src/runs/gate9b_a0_t1.json",
+    "alpha": 0.0,
+    "panel": {
+      "reliability": 0.9960955055526137,
+      "cycle_mass": 0.12092608012340418,
+      "hard_rate": 0.013333333333333334,
+      "sharpness": 1.1513041257858276,
+      "position_bias": null,
+      "holdout": {
+        "log_loss": 0.44172540283065487,
+        "accuracy": 0.9457917261055635,
+        "label_entropy": 0.41699631180391394,
+        "excess_log_loss": 0.024729091026740924
+      }
+    }
+  },
+  "doses": [
+    {
+      "alpha": 2.84,
+      "ordering_rho_raw": 0.9951886209029065,
+      "ordering_rho_attenuation_corrected": 0.998986363751224,
+      "gain": {
+        "beta": 0.9928299188613892,
+        "m0_holdout": {
+          "log_loss": 0.44390363834297564,
+          "accuracy": 0.9386590584878745,
+          "label_entropy": 0.42101196532395124,
+          "excess_log_loss": 0.022891673019024394
+        },
+        "m1_holdout": {
+          "log_loss": 0.4439007642878374,
+          "accuracy": 0.9386590584878745,
+          "label_entropy": 0.42101196532395124,
+          "excess_log_loss": 0.02288879896388618
+        }
+      },
+      "m2_holdout": {
+        "log_loss": 0.4421458366460322,
+        "accuracy": 0.9415121255349501,
+        "label_entropy": 0.42101196532395124,
+        "excess_log_loss": 0.021133871322080944
+      },
+      "latent": {
+        "n_undecided": 486,
+        "frac_resolved": 0.05761316872427984,
+        "resolution_ordering_agreement": 0.9285714285714286,
+        "eps": 0.05,
+        "theta": 0.1
+      },
+      "panel": {
+        "reliability": 0.9963013125086926,
+        "cycle_mass": 0.12072843586033007,
+        "hard_rate": 0.016666666666666666,
+        "sharpness": 1.1819487810134888,
+        "position_bias": null
+      }
+    },
+    {
+      "alpha": 4.09,
+      "ordering_rho_raw": 0.993234384662956,
+      "ordering_rho_attenuation_corrected": 0.9969486944267011,
+      "gain": {
+        "beta": 0.9495106935501099,
+        "m0_holdout": {
+          "log_loss": 0.45643827110921353,
+          "accuracy": 0.9400855920114123,
+          "label_entropy": 0.43401061651867495,
+          "excess_log_loss": 0.02242765459053858
+        },
+        "m1_holdout": {
+          "log_loss": 0.4560415396213074,
+          "accuracy": 0.9400855920114123,
+          "label_entropy": 0.43401061651867495,
+          "excess_log_loss": 0.022030923102632438
+        }
+      },
+      "m2_holdout": {
+        "log_loss": 0.4533515307716064,
+        "accuracy": 0.9500713266761769,
+        "label_entropy": 0.43401061651867495,
+        "excess_log_loss": 0.01934091425293144
+      },
+      "latent": {
+        "n_undecided": 486,
+        "frac_resolved": 0.06378600823045268,
+        "resolution_ordering_agreement": 0.8064516129032258,
+        "eps": 0.05,
+        "theta": 0.1
+      },
+      "panel": {
+        "reliability": 0.9964531706568147,
+        "cycle_mass": 0.12571072194289287,
+        "hard_rate": 0.013333333333333334,
+        "sharpness": 1.142776608467102,
+        "position_bias": null
+      }
+    },
+    {
+      "alpha": 4.95,
+      "ordering_rho_raw": 0.9923809523809523,
+      "ordering_rho_attenuation_corrected": 0.9961026526968495,
+      "gain": {
+        "beta": 0.9134718179702759,
+        "m0_holdout": {
+          "log_loss": 0.46784732069372,
+          "accuracy": 0.9358059914407989,
+          "label_entropy": 0.44517663551637165,
+          "excess_log_loss": 0.022670685177348326
+        },
+        "m1_holdout": {
+          "log_loss": 0.46657802551440053,
+          "accuracy": 0.9358059914407989,
+          "label_entropy": 0.44517663551637165,
+          "excess_log_loss": 0.021401389998028875
+        }
+      },
+      "m2_holdout": {
+        "log_loss": 0.46338273669833696,
+        "accuracy": 0.9443651925820257,
+        "label_entropy": 0.44517663551637165,
+        "excess_log_loss": 0.018206101181965306
+      },
+      "latent": {
+        "n_undecided": 486,
+        "frac_resolved": 0.07613168724279835,
+        "resolution_ordering_agreement": 0.8108108108108109,
+        "eps": 0.05,
+        "theta": 0.1
+      },
+      "panel": {
+        "reliability": 0.9964319992088442,
+        "cycle_mass": 0.13009608379995616,
+        "hard_rate": 0.013333333333333334,
+        "sharpness": 1.1030690670013428,
+        "position_bias": null
+      }
+    }
+  ]
+}

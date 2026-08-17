@@ -1,0 +1,12 @@
+{
+  "layer": 12,
+  "model": "Qwen/Qwen3.5-9B",
+  "primary_norm": 2.473989248275757,
+  "cos_primary_singleword": 0.9486528635025024,
+  "cos_primary_wanting171": 0.7293322086334229,
+  "cos_primary_desire": 0.5669831037521362,
+  "cos_wanting171_desire": 0.5587055683135986,
+  "cos_primary_reckless": 0.49860960245132446,
+  "cos_desire_reckless": 0.3272615373134613,
+  "cos_wanting171_reckless": 0.34473735094070435
+}

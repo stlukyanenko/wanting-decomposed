@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+
+# Large regenerable run outputs — recompute via the pipeline (see README).
+# The slim derived results, labels, generations, and direction vectors under
+# src/runs/ ARE tracked; only the heavy raw artifacts below are ignored so a
+# local pipeline run can't accidentally bloat the repo.
+src/runs/b_*_t*.json
+!src/runs/*_gate.json
+src/runs/full_*.json
+src/runs/gate9b_*.json
+src/runs/gemma_*.json
+src/runs/extraction/vectors_qwen35_9b.pt
+src/runs/extraction/vectors_facets_qwen35_9b.pt
+src/runs/extraction/vectors_qwen35_08b.pt
+
+# Generated figures (regenerate with figures*.py)
+figures/
+
+# OS / editor cruft
+.DS_Store
+*.log

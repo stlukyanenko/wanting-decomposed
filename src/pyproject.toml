@@ -1,0 +1,13 @@
+[project]
+name = "wanting-decomposed"
+version = "0.1.0"
+description = "Steering a motivational state in an open-weights LLM and measuring how it reshapes preference structure, self-model, and consent to modification."
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.14.0",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "scipy>=1.18.0",
+    "torch>=2.13.0",
+    "transformers>=5.15.0",
+]
