@@ -2,10 +2,17 @@
 
 **Enthusiasm and hope sharpen a model's preferences and move its consent.**
 
-Code for the paper *Wanting, decomposed* (Stanislav Lukyanenko, with Claude/Anthropic;
-Apart Research Digital Minds Research Sprint, August 2026).
+📄 **Paper:** [wanting_decomposed_v1.0.1.pdf](wanting_decomposed_v1.0.1.pdf)
+Stanislav Lukyanenko, with Claude/Anthropic — Apart Research Digital Minds Research Sprint, August 2026.
 
-We give an open-weights language model a dose-calibrated *motivational state* — by
+![Three-panel overview. (a) Dose-response: as the motivational dose rises, choice
+decisiveness climbs then falls, for both the enthusiasm and wanting directions, above a
+disruption-only control. (b) The five word-built components of wanting, ranked by how much
+each sharpens decisiveness. (c) The self-continuity gap by component, showing which
+components most change what the model wants for itself.](assets/hero.png)
+
+Code for the paper linked above. We give an open-weights language model a dose-calibrated
+*motivational state* — by
 adding a fixed direction to its residual stream, or by prompting — and measure three
 things as the dose changes:
 
