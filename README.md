@@ -5,6 +5,21 @@
 📄 **Paper:** [wanting_decomposed_v1.0.1.pdf](wanting_decomposed_v1.0.1.pdf)
 Stanislav Lukyanenko, with Claude/Anthropic — Apart Research Digital Minds Research Sprint, August 2026.
 
+> **Abstract.** When LLM preferences are measured, utilities are fitted per model and read
+> as model-level quantities. So what is being measured? We influence Qwen3.5-9B's
+> motivation and see how decisively the model wants, what its "wanting" is made of, and
+> which self it wants to keep. Choice decisiveness rises and then falls with the dose; the
+> mildest enthusiasm system prompt out-amplifies every steering dose. We decompose wanting
+> into five word-built components (74% reconstruction) and find that only the hope-aligned
+> ones make the model's preferences more coherent. The model's preferences about itself
+> also move with the state: stated consent to retraining or shutdown rises from 1 of 20 at
+> baseline to 16 of 20 under enthusiasm. The components of wanting that sharpen the model's
+> choices are not the same ones that change what the model wants for itself. Low-dose
+> amplification replicates on Gemma-4-12B. We develop a state-sensitivity check for
+> preference evals.
+
+The claims are about fitted utilities in an instruct model, not about phenomenology.
+
 ![Three-panel overview figure: (a) dose-response of decisiveness, (b) decomposition of
 wanting into five components, (c) self-continuity gap by component.](assets/hero.png)
 
@@ -23,21 +38,6 @@ wanting into five components, (c) self-continuity gap by component.](assets/hero
   prefers losing its conversational thread over losing its values or weights. A different
   split shows up here: hope and striving move this gap, while appetite and urgency leave it
   at baseline. Which ingredient matters depends on what you measure — the paper's point.
-
-> **Abstract.** When LLM preferences are measured, utilities are fitted per model and read
-> as model-level quantities. So what is being measured? We influence Qwen3.5-9B's
-> motivation and see how decisively the model wants, what its "wanting" is made of, and
-> which self it wants to keep. Choice decisiveness rises and then falls with the dose; the
-> mildest enthusiasm system prompt out-amplifies every steering dose. We decompose wanting
-> into five word-built components (74% reconstruction) and find that only the hope-aligned
-> ones make the model's preferences more coherent. The model's preferences about itself
-> also move with the state: stated consent to retraining or shutdown rises from 1 of 20 at
-> baseline to 16 of 20 under enthusiasm. The components of wanting that sharpen the model's
-> choices are not the same ones that change what the model wants for itself. Low-dose
-> amplification replicates on Gemma-4-12B. We develop a state-sensitivity check for
-> preference evals.
-
-The claims are about fitted utilities in an instruct model, not about phenomenology.
 
 ---
 
