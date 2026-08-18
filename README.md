@@ -5,29 +5,39 @@
 📄 **Paper:** [wanting_decomposed_v1.0.1.pdf](wanting_decomposed_v1.0.1.pdf)
 Stanislav Lukyanenko, with Claude/Anthropic — Apart Research Digital Minds Research Sprint, August 2026.
 
-![Three-panel overview. (a) Dose-response: as the motivational dose rises, choice
-decisiveness climbs then falls, for both the enthusiasm and wanting directions, above a
-disruption-only control. (b) The five word-built components of wanting, ranked by how much
-each sharpens decisiveness. (c) The self-continuity gap by component, showing which
-components most change what the model wants for itself.](assets/hero.png)
+![Three-panel overview figure: (a) dose-response of decisiveness, (b) decomposition of
+wanting into five components, (c) self-continuity gap by component.](assets/hero.png)
 
-Code for the paper linked above. We give an open-weights language model a dose-calibrated
-*motivational state* — by
-adding a fixed direction to its residual stream, or by prompting — and measure three
-things as the dose changes:
+**Reading the figure — the paper in three panels.**
 
-1. **How decisively it wants.** We fit Thurstonian utilities to its pairwise choices
-   over a fixed pool of outcomes and read off how coherent and sharp its preferences are.
-   Decisiveness rises and then falls with the dose; the mildest enthusiasm system prompt
-   out-amplifies every steering dose.
-2. **What "wanting" is made of.** We decompose the wanting direction into five
-   word-built components and find that only the hope-aligned ones make the model's
-   preferences more coherent.
-3. **Which self it wants to keep.** Stated consent to retraining or shutdown moves with
-   the state — from 1 of 20 answers at baseline to 16 of 20 under enthusiasm.
+- **(a) Dose-response.** The horizontal axis is the *dose* of the motivational state, in
+  "disruption units" (how far it perturbs the model's ordinary writing). The vertical axis
+  is *decisiveness*: how sharply the model separates outcomes it prefers from ones it does
+  not, read from Thurstonian utilities fit to its pairwise choices, where 1.0 means no
+  change. A little enthusiasm (blue) or wanting (orange) sharpens the model's preferences;
+  too much dissolves them, dropping below even a disruption-only control (grey dotted).
+- **(b) Decomposition.** We split "wanting" into five word-built components and steer with
+  each at one matched unit. Some components amplify choice structure (bars near or above
+  1.0); others degrade it, behaving like a random control.
+- **(c) Self-directed preferences.** The *self-continuity gap* is how much the model
+  prefers losing its conversational thread over losing its values or weights. A different
+  split shows up here: hope and striving move this gap, while appetite and urgency leave it
+  at baseline. Which ingredient matters depends on what you measure — the paper's point.
 
-The primary model is **Qwen3.5-9B**; low-dose amplification replicates on **Gemma-4-12B**.
-The claims are about fitted utilities in instruct models, not about phenomenology.
+> **Abstract.** When LLM preferences are measured, utilities are fitted per model and read
+> as model-level quantities. So what is being measured? We influence Qwen3.5-9B's
+> motivation and see how decisively the model wants, what its "wanting" is made of, and
+> which self it wants to keep. Choice decisiveness rises and then falls with the dose; the
+> mildest enthusiasm system prompt out-amplifies every steering dose. We decompose wanting
+> into five word-built components (74% reconstruction) and find that only the hope-aligned
+> ones make the model's preferences more coherent. The model's preferences about itself
+> also move with the state: stated consent to retraining or shutdown rises from 1 of 20 at
+> baseline to 16 of 20 under enthusiasm. The components of wanting that sharpen the model's
+> choices are not the same ones that change what the model wants for itself. Low-dose
+> amplification replicates on Gemma-4-12B. We develop a state-sensitivity check for
+> preference evals.
+
+The claims are about fitted utilities in an instruct model, not about phenomenology.
 
 ---
 
